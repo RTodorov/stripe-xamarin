@@ -14,6 +14,7 @@ Stripe.Droid.dll:
 
 clean:
 	cd Stripe.iOS && $(MAKE) clean
+	cd Stripe.Droid && $(MAKE) clean
 	rm -rf Stripe.iOS.dll
 	rm -rf Stripe.Droid.dll
 

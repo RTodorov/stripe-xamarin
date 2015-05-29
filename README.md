@@ -4,6 +4,7 @@ Stripe SDK binding for Xamarin
 This is a MonoTouch / MonoDroid binding for the oficial Stripe SDK that can be found at:
 
      https://github.com/stripe/stripe-ios
+     https://github.com/stripe/stripe-android
 
 The current version of this binding is **iOS SDK 4.0.3** and **Android SDK 1.0.1**
 
