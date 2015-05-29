@@ -46,6 +46,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
+    <Folder Include="Jars\" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedJar Include="Jars\stripe-java-1.12.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedReferenceJar Include="Jars\gson-2.2.2.jar" />
   </ItemGroup>
 </Project>
