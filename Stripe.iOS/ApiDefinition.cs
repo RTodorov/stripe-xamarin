@@ -109,7 +109,7 @@ namespace Stripe.iOS
 
 		// @property (readonly, nonatomic) NSString * currency;
 		[Export ("currency")]
-		string Currency { get; }
+		string Currency { get; set; }
 
 		// @property (readonly, nonatomic) BOOL validated;
 		[Export ("validated")]

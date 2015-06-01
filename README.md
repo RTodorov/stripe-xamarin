@@ -24,3 +24,9 @@ Simply add `Stripe.*.dll` to your project's References.
 You can also download this binding via NuGet.
 
 Warning: The iOS binding is for the Unified API only.
+
+
+Usage
+-----
+
+See the links above for usage instructions
