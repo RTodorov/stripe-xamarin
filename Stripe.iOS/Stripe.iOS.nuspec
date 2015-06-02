@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Stripe.iOS.dll</id>
+    <version>4.0.3</version>
+    <authors>rtodorov</authors>
+    <owners>rtodorov</owners>
+    <projectUrl>https://github.com/RTodorov/stripe-xamarin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Stripe binding for iOS</description>
+    <releaseNotes>First release.</releaseNotes>
+    <tags>Stripe payment iOS binding</tags>
+  </metadata>
+  <files>
+    <file src="bin/Release/Stripe.iOS.dll" target="lib/Xamarin.iOS10" />
+  </files>
+</package>
