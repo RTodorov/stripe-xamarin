@@ -12,7 +12,7 @@ Stripe_Droid_$(VERSION).zip:
 	unzip $@
 
 stripe-java-1.12.0.jar: Stripe_Droid_$(VERSION).zip
-	cp stripe-android-$(VERSION)/stripe/libs/stripe-java-1.12.0.jar Jars/stripe-java-1.12.0.jar
+	cp stripe-android-$(VERSION)/stripe/libs/* Jars/
 
 Stripe.Droid.dll: stripe-java-1.12.0.jar
 	$(MONOXBUILD) /p:Configuration=Release Stripe.Droid.csproj
@@ -22,5 +22,5 @@ clean:
 	-rm -rf bin obj *.a *.dll
 	rm -rf stripe-android*
 	rm -rf Stripe_Droid_$(VERSION).zip
-	rm -rf Jars/stripe-java-1.12.0.jar
+	rm -rf Jars/*
 	rm -rf stripe-android-1.0.1
